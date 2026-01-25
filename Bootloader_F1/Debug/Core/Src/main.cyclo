@@ -1,0 +1,14 @@
+../Core/Src/main.c:78:13:gpio_debug_init	1
+../Core/Src/main.c:88:13:led_on	1
+../Core/Src/main.c:93:13:led_off	1
+../Core/Src/main.c:98:6:delay	2
+../Core/Src/main.c:104:6:start_watchdog	2
+../Core/Src/main.c:114:10:calculate_CRC	2
+../Core/Src/main.c:128:13:jump_to_application_2	2
+../Core/Src/main.c:169:13:jump_to_application	2
+../Core/Src/main.c:210:9:validate_app1	8
+../Core/Src/main.c:249:9:validate_app2	8
+../Core/Src/main.c:294:5:main	10
+../Core/Src/main.c:382:6:SystemClock_Config	3
+../Core/Src/main.c:419:13:MX_GPIO_Init	1
+../Core/Src/main.c:441:6:Error_Handler	1
