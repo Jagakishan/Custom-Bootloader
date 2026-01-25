@@ -114,7 +114,9 @@ App Slot1  | ~24 KB | 0x0800A000-0x0800EFFF (Header+Image)
 
 ---
 
-## 🧾 Image Header Format-128 bytes(VTOR needs 128 byte aligned start for normal execution and ISR jumping)
+## 🧾 Image Header Format
+
+128 bytes header with 108 bytes reserved for future extension and also VTOR needs 128 byte aligned start address for normal execution and ISR jumping.
 
 | Field        | Description                          |
 |-------------|--------------------------------------|
