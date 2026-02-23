@@ -1,0 +1,3 @@
+../Core/Src/flash_write.c:7:19:flash_write_header	2
+../Core/Src/flash_write.c:28:19:flash_app_erase	1
+../Core/Src/flash_write.c:45:19:flash_write_app	2

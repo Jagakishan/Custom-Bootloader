@@ -1,0 +1,9 @@
+../Core/Src/main.c:70:5:_write	32	static
+../Core/Src/main.c:83:13:gpio_debug_init	4	static
+../Core/Src/main.c:93:9:validate_app1	40	static
+../Core/Src/main.c:134:6:jumpToApplication	24	static,ignoring_inline_asm
+../Core/Src/main.c:164:5:main	16	static
+../Core/Src/main.c:255:6:SystemClock_Config	72	static
+../Core/Src/main.c:292:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:325:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:359:6:Error_Handler	4	static,ignoring_inline_asm

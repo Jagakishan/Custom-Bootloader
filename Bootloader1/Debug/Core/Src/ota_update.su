@@ -1,0 +1,3 @@
+../Core/Src/ota_update.c:18:6:clearOTAflag	40	static
+../Core/Src/ota_update.c:28:16:verify_update	8	static
+../Core/Src/ota_update.c:42:6:OTA_update	32	static

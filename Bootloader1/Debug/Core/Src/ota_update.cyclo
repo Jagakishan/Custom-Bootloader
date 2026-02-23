@@ -1,0 +1,3 @@
+../Core/Src/ota_update.c:18:6:clearOTAflag	2
+../Core/Src/ota_update.c:28:16:verify_update	3
+../Core/Src/ota_update.c:42:6:OTA_update	5
