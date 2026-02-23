@@ -1,6 +1,6 @@
 # Dual-Slot Bootloader with Watchdog-Based Rollback (STM32)
 
-A bare-metal bootloader for STM32 microcontrollers implementing **dual application slots**, **CRC-based validation**, and **watchdog-driven automatic rollback** for new app updates.
+A bare-metal bootloader for STM32 microcontrollers implementing **dual application slots**, **CRC-based validation**, **watchdog-driven automatic rollback** and **firmware update(not 100% OTA yet)** for new app updates.
 
 The project files only involve the bootloader's main file. the linker scripts of application where memory layout is decided and image headers are pushed into app's start address under the sections column.
 Application's main files are just dummy codes for debugging, but could be anything if you're serious about using it. 
@@ -44,6 +44,11 @@ Application's main files are just dummy codes for debugging, but could be anythi
   - No RTOS
   - No HAL dependency in boot logic
   - Direct register-level control for critical paths
+
+- **Manual Firmware update**
+  - Automated flashing of new app image.
+  - But, binary has to be pasted in the project folder manually.
+  - This binary will be transmitted over Wi-fi in next version of project. Or it will be uploaded as a seperate project in the same repository. 
 
 ---
 
@@ -130,9 +135,9 @@ App Slot1  | ~24 KB | 0x0800A000-0x0800EFFF (Header+Image)
 
 ## ❌ Technologies that I didn't implement
 
-These were intentionally excluded to keep the system minimal and focused(Might add any of them in future):
+These were intentionally excluded to keep the system minimal and focused:
 
-- OTA transport (Wi-Fi / BLE / GSM)
+- OTA transport (Wi-Fi) - Will be added anytime soon.
 - Firmware encryption
 - Flash wear leveling
 
